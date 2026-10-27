@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Nuka Raju & Dilleswari//Engagement Invitation//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:engagement-nukaraju-dilleswari-20261101@invitation
+DTSTAMP:20261027T000000Z
+DTSTART:20261101T053000Z
+SUMMARY:Engagement Ceremony · Nuka Raju & Dilleswari
+DESCRIPTION:11:00 AM onwards. With the blessings of our families\, you are warmly invited.
+LOCATION:RK Function Hall\, Sujatha Nagar\, opposite HP Petrol Bunk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Engagement Ceremony · Nuka Raju & Dilleswari
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

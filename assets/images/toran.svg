@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 130" width="600" height="130">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4E8A5F"/><stop offset="1" stop-color="#244A34"/>
+    </linearGradient>
+    <radialGradient id="mg" cx=".4" cy=".35" r=".7">
+      <stop offset="0" stop-color="#FFD166"/><stop offset=".55" stop-color="#F29A1F"/><stop offset="1" stop-color="#B85F0A"/>
+    </radialGradient>
+    <g id="leaf">
+      <path d="M0 0 C 12 14, 13 46, 0 70 C -13 46, -12 14, 0 0 Z" fill="url(#lg)"/>
+      <path d="M0 4 V 64" stroke="#9FC9A3" stroke-width="1.2" stroke-opacity=".7"/>
+    </g>
+    <g id="marigold">
+      <circle r="10.5" fill="url(#mg)"/>
+      <circle r="10.5" fill="none" stroke="#B85F0A" stroke-width="2" stroke-dasharray="2 2.4" stroke-opacity=".6"/>
+      <circle r="6" fill="none" stroke="#C96A0C" stroke-width="1.6" stroke-dasharray="1.6 1.8" stroke-opacity=".7"/>
+      <circle r="2.2" fill="#8A4410"/>
+    </g>
+  </defs>
+  <path d="M0 8 Q 300 34 600 8" fill="none" stroke="#C6A15B" stroke-width="3"/>
+  <use href="#leaf" transform="translate(24.0 16.0) scale(1.18)"/><use href="#leaf" transform="translate(70.0 18.6) scale(1)"/><use href="#leaf" transform="translate(116.0 21.0) scale(1.18)"/><use href="#leaf" transform="translate(162.0 23.1) scale(1)"/><use href="#leaf" transform="translate(208.0 24.7) scale(1.18)"/><use href="#leaf" transform="translate(254.0 25.7) scale(1)"/><use href="#leaf" transform="translate(300.0 26.0) scale(1.18)"/><use href="#leaf" transform="translate(346.0 25.7) scale(1)"/><use href="#leaf" transform="translate(392.0 24.7) scale(1.18)"/><use href="#leaf" transform="translate(438.0 23.1) scale(1)"/><use href="#leaf" transform="translate(484.0 21.0) scale(1.18)"/><use href="#leaf" transform="translate(530.0 18.6) scale(1)"/><use href="#leaf" transform="translate(576.0 16.0) scale(1.18)"/>
+  <use href="#marigold" transform="translate(47.0 15.3)"/><use href="#marigold" transform="translate(93.0 17.8)"/><use href="#marigold" transform="translate(139.0 20.1)"/><use href="#marigold" transform="translate(185.0 21.9)"/><use href="#marigold" transform="translate(231.0 23.2)"/><use href="#marigold" transform="translate(277.0 23.9)"/><use href="#marigold" transform="translate(323.0 23.9)"/><use href="#marigold" transform="translate(369.0 23.2)"/><use href="#marigold" transform="translate(415.0 21.9)"/><use href="#marigold" transform="translate(461.0 20.1)"/><use href="#marigold" transform="translate(507.0 17.8)"/><use href="#marigold" transform="translate(553.0 15.3)"/>
+</svg>
